@@ -1,12 +1,12 @@
-package com.bookStore.service;
+package com.book.service;
 
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.bookStore.entity.MyBookList;
-import com.bookStore.repository.MyBookRepository;
+import com.book.model.MyBookList;
+import com.book.repository.MyBookRepository;
 
 @Service
 public class MyBookListService {

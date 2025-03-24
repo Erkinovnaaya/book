@@ -1,4 +1,4 @@
-package com.example.book.controller;
+package com.book.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -6,10 +6,10 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.ModelAndView;
 
-import com.example.book.model.Book;
-import com.bookStore.entity.MyBookList;
-import com.bookStore.service.BookService;
-import com.bookStore.service.MyBookListService;
+import com.book.model.Book;
+import com.book.model.MyBookList;
+import com.book.service.BookService;
+import com.book.service.MyBookListService;
 
 import java.util.*;
 

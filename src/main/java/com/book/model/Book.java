@@ -1,11 +1,11 @@
-package com.example.book.model;
+package com.book.model;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
-@com.example.book.model.Entity
+@com.book.model.Entity
 public class Book {
 
     @Id
